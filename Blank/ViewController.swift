@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import Foundation
+import CoreML
+import MapKit
+import Metal
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        while true {
+            fatalError()
+        }
     }
 
     override func didReceiveMemoryWarning() {
